@@ -1,80 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Candyland Game</title>
-    <link rel="stylesheet" href="portfolio.css">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Candyland Game — a C++ game development project by Aubrey Hatch."
+    >
+
+    <title>Candyland Game | Aubrey Hatch</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <link rel="stylesheet" href="project.css">
+
 </head>
-<body id="candyland">
-    <header>
-        <h1>Candyland Game</h1>
-        <p class="subtitle">A Classic Board Game Built in C++</p>
+
+
+<body>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+
+        <a
+            class="brand"
+            href="portfolio.html"
+            aria-label="Aubrey Hatch portfolio"
+        >
+
+            <span class="brand-mark">
+                AH
+            </span>
+
+            <span class="brand-name">
+                Aubrey Hatch
+            </span>
+
+        </a>
+
+
+        <nav
+            class="nav-links"
+            aria-label="Main navigation"
+        >
+
+            <a href="portfolio.html#about">
+                About
+            </a>
+
+            <a href="portfolio.html#projects">
+                Work
+            </a>
+
+            <a
+                href="assets/Final Resume (1).pdf"
+                target="_blank"
+            >
+                Résumé
+            </a>
+
+            <a href="mailto:aubrey.hatch@colorado.edu">
+                Contact
+            </a>
+
+        </nav>
+
     </header>
-    
-    <section id="about">
-        <h2>About the Game</h2>
+
+
+    <main class="project-page">
+
+
+        <!-- =========================
+             BACK
+        ========================== -->
+
+        <a
+            href="portfolio.html#projects"
+            class="back-link"
+        >
+            ← Back to selected work
+        </a>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="project-hero">
+
+            <div>
+
+                <p class="project-eyebrow">
+                    Interactive Experience · C++
+                </p>
+
+
+                <h1 class="project-title">
+                    Candyland
+                </h1>
+
+
+                <p class="project-subtitle">
+                    Reimagining the classic board game as an
+                    interactive multiplayer experience built in C++.
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span class="project-tag">
+                        C++
+                    </span>
+
+                    <span class="project-tag">
+                        Game Design
+                    </span>
+
+                    <span class="project-tag">
+                        Interaction
+                    </span>
+
+                    <span class="project-tag">
+                        Development
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image-wrap">
+
+                <img
+                    class="hero-image"
+                    src="assets/candyland1.png"
+                    alt="Candyland game project"
+                >
+
+                <div
+                    class="hero-image-accent"
+                    aria-hidden="true"
+                ></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECT DETAILS
+        ========================== -->
+
+        <section class="project-meta">
+
+            <div class="meta-item">
+
+                <p class="meta-label">
+                    Project
+                </p>
+
+                <p class="meta-value">
+                    Candyland Game
+                </p>
+
+            </div>
+
+
+            <div class="meta-item">
+
+                <p class="meta-label">
+                    Role
+                </p>
+
+                <p class="meta-value">
+                    Designer &amp; Developer
+                </p>
+
+            </div>
+
+
+            <div class="meta-item">
+
+                <p class="meta-label">
+                    Tools
+                </p>
+
+                <p class="meta-value">
+                    C++ · Text Files
+                </p>
+
+            </div>
+
+
+            <div class="meta-item">
+
+                <p class="meta-label">
+                    Focus
+                </p>
+
+                <p class="meta-value">
+                    Logic · Game Flow · UX
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             OVERVIEW
+        ========================== -->
+
+        <section class="project-section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    01
+                </p>
+
+
+                <div class="section-content">
+
+                    <h2>
+                        About the
+                        <em>game.</em>
+                    </h2>
+
+
+                    <p class="lead">
+                        Candyland is a multiplayer board game where
+                        players race to reach the Candy Castle first.
+                    </p>
+
+
+                    <p>
+                        Along the way, players solve puzzles and use
+                        different candies to slow down their opponents.
+                        I built the project as an interactive C++ program
+                        while learning how game rules, player choices,
+                        and code structure all work together.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GOAL
+        ========================== -->
+
+        <section class="project-section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    02
+                </p>
+
+
+                <div class="section-content">
+
+                    <h2>
+                        The
+                        <em>goal.</em>
+                    </h2>
+
+
+                    <p class="lead">
+                        I wanted to take a familiar game and figure out
+                        how to translate its rules into code.
+                    </p>
+
+
+                    <p>
+                        The project focused on building clear turn-based
+                        logic, creating a game setup that could pull
+                        information from external text files, and making
+                        the experience easy enough for a new player to
+                        understand without knowing how the program works.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECOND IMAGE
+        ========================== -->
+
+        <section class="feature-image-section">
+
+            <img
+                class="full-project-image"
+                src="assets/candyland2.png"
+                alt="Additional Candyland project view"
+            >
+
+        </section>
+
+
+        <!-- =========================
+             CONTRIBUTIONS / SKILLS
+        ========================== -->
+
+        <section class="project-section">
+
+            <div class="two-column-section">
+
+
+                <div class="info-column">
+
+                    <p class="project-eyebrow">
+                        What I did
+                    </p>
+
+                    <h2>
+                        My contributions
+                    </h2>
+
+
+                    <ul class="info-list">
+
+                        <li>
+                            Designed the game flow, including turn order,
+                            win conditions, and rules for special tiles.
+                        </li>
+
+                        <li>
+                            Built the core C++ logic for player movement,
+                            card drawing, and score tracking.
+                        </li>
+
+                        <li>
+                            Used external text files for game messages
+                            and board information so content could change
+                            without rewriting the program.
+                        </li>
+
+                        <li>
+                            Tested the game, fixed logic issues, and
+                            adjusted prompts to make gameplay clearer.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="info-column">
+
+                    <p class="project-eyebrow">
+                        What I learned
+                    </p>
+
+                    <h2>
+                        Skills gained
+                    </h2>
+
+
+                    <ul class="info-list">
+
+                        <li>
+                            C++ functions, classes, loops, and
+                            control flow.
+                        </li>
+
+                        <li>
+                            File input and output using external
+                            text resources.
+                        </li>
+
+                        <li>
+                            Debugging larger systems with
+                            interconnected game logic.
+                        </li>
+
+                        <li>
+                            Writing documentation and instructions
+                            for someone using a project for the first time.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HOW TO PLAY
+        ========================== -->
+
+        <section class="project-section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    03
+                </p>
+
+
+                <div class="section-content">
+
+                    <h2>
+                        Try it
+                        <em>yourself.</em>
+                    </h2>
+
+
+                    <p>
+                        The game can be downloaded and run locally
+                        from a terminal.
+                    </p>
+
+
+                    <div class="steps">
+
+                        <div class="step">
+
+                            <p>
+                                Download the Candyland game files
+                                using the button below.
+                            </p>
+
+                        </div>
+
+
+                        <div class="step">
+
+                            <p>
+                                Unzip the downloaded folder.
+                            </p>
+
+                        </div>
+
+
+                        <div class="step">
+
+                            <p>
+                                Keep the
+                                <code>text_files/</code>
+                                folder and
+                                <code>candyland.out</code>
+                                file together in the same directory.
+                            </p>
+
+                        </div>
+
+
+                        <div class="step">
+
+                            <p>
+                                Open Terminal in that directory and run:
+
+                                <br>
+
+                                <span class="command">
+                                    ./candyland.out
+                                </span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <a
+                            class="project-button project-button-primary"
+                            href="assets/candyland.zip"
+                            download
+                        >
+                            Download game
+                            <span>↓</span>
+                        </a>
+
+
+                        <a
+                            class="project-button project-button-secondary"
+                            href="https://github.com/aubrey888/aubrey888.github.io/tree/main/final/candyland"
+                            target="_blank"
+                        >
+                            View source code
+                            <span>↗</span>
+                        </a>
+
+
+                        <a
+                            class="project-button project-button-secondary"
+                            href="assets/README.txt"
+                            target="_blank"
+                        >
+                            Read instructions
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             NEXT PROJECT
+        ========================== -->
+
+        <section class="next-project">
+
+            <p>
+                Next project
+            </p>
+
+            <a href="catgame.html">
+                Cat Game →
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
         <p>
-            Candyland is a multiplayer board game where players compete to reach the Candy Castle first while solving puzzles and using candies to strategically slow down opponents.
+            © 2026 Aubrey Hatch
         </p>
-    </section>
 
-    <!-- NEW: Project Goal -->
-    <section id="goal">
-        <h2>Project Goal</h2>
-        <p>
-            The goal of this project was to recreate the classic Candyland board game as an
-            interactive C++ program. I focused on building clear turn-based logic, using text
-            files to drive the game setup, and creating a fun, replayable experience for
-            multiple players.
-        </p>
-    </section>
+        <a href="portfolio.html">
+            Portfolio
+        </a>
 
-    <!-- NEW: My Contributions -->
-    <section id="contribution">
-        <h2>My Contributions</h2>
-        <ul>
-            <li>Designed the game flow, including turn order, win conditions, and rules for special tiles.</li>
-            <li>Implemented the core game logic in C++, including player movement, card drawing, and score tracking.</li>
-            <li>Used external text files to store game messages and board information so the game could be updated without changing code.</li>
-            <li>Tested gameplay, fixed logic bugs, and refined prompts to make the game easy to understand for new players.</li>
-        </ul>
-    </section>
-
-    <!-- NEW: Skills Gained -->
-    <section id="skills-gained">
-        <h2>Skills Gained</h2>
-        <ul>
-            <li>C++ programming (functions, structs/classes, control flow, and loops)</li>
-            <li>File input/output and working with external text resources</li>
-            <li>Problem-solving and debugging game logic</li>
-            <li>Documenting a project for other users with a README and clear instructions</li>
-        </ul>
-    </section>
-
-    <section id="instructions">
-        <h2>How to Play</h2>
-        <ol>
-            <li>Download the game by clicking the link below.</li>
-            <li>Unzip the downloaded file to a folder.</li>
-            <li>Ensure the <code>text_files/</code> folder and <code>candyland.out</code> file are in the same directory.</li>
-            <li>Run the game with the following command in a terminal:
-                <pre>./candyland.out</pre>
-            </li>
-        </ol>
-        <p>For more detailed instructions, refer to the <a href="assets/README.txt" target="_blank">README file</a>.</p>
-    </section>
-
-    <section id="resources">
-        <h2>Resources</h2>
-        <p>
-            <a href="https://github.com/aubrey888/aubrey888.github.io/tree/main/final/candyland" target="_blank">View Source Code</a><br>
-            <a href="assets/candyland.zip" download>Download the Game</a>
-        </p>
-    </section>
-
-    <footer>
-        <p>Created by Aubrey Hatch</p>
     </footer>
+
+
 </body>
+
 </html>
